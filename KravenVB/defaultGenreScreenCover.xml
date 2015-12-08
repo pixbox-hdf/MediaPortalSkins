@@ -19,7 +19,7 @@
 	<widget name="name" position="100,125" size="750,20" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 	<widget name="ContentTitle" position="100,580" size="650,20" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 18" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 
-    <widget name="liste" position="340,166" size="843,305" backgroundColor="#00000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" foregroundColorSelected="KravenSelFont" foregroundColor="#00ffffff" />
+    <widget name="liste" position="340,166" size="843,300" backgroundColor="#00000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" foregroundColorSelected="KravenSelFont" foregroundColor="#00ffffff" />
 
 	<widget name="coverArt" position="110,166" size="204,308" zPosition="4" backgroundColor="#00000000" transparent="1" borderWidth="0" borderColor="#0000000" alphatest="blend" />
 	<eLabel position="110,166" size="204,308" backgroundColor="#00000000" zPosition="-2" name="coverArtBG" foregroundColor="#00000000" />
