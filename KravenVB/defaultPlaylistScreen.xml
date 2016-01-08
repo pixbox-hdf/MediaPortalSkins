@@ -44,10 +44,10 @@
 	<widget name="coverArt" pixmap="~/KravenVB/images/nc_musik.png" position="112,370" size="160,100" zPosition="4" backgroundColor="#00000000" transparent="1" borderWidth="2" borderColor="#0000000" alphatest="blend" />
 	
 	<!-- Buttons -->
-   <widget name="F1" position="45,665" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <widget name="F2" position="190,665" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <widget name="F3" position="345,665" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <widget name="F4" position="500,665" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
+   <widget name="F1" position="45,665" size="120,20" noWrap="1" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="F2" position="190,665" size="120,20" noWrap="1" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="F3" position="345,665" size="120,20" noWrap="1" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="F4" position="500,665" size="120,20" noWrap="1" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
 
 	<eLabel text=" Playlist " position="190,665" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
 	

@@ -7,16 +7,16 @@
 	<ePixmap position="0,0" size="1280,720" zPosition="-3" pixmap="~/KravenVB/images/mp_bg_detail.png" alphatest="blend" />
 	
 	<!-- Datum/Uhrzeit -->
-	<widget source="global.CurrentTime" render="Label" position="1120,74" size="100,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 22" valign="center" halign="left" transparent="1" foregroundColor="#00ffffff" >
+	<widget source="global.CurrentTime" render="Label" position="1120,54" size="100,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 22" valign="center" halign="left" transparent="1" foregroundColor="#00ffffff" >
 		<convert type="ClockToText">Format:%H:%M:%S</convert>
 	</widget>
-	<widget source="global.CurrentTime" render="Label" position="815,75" size="300,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 22" valign="center" halign="right" transparent="1" foregroundColor="#00ffffff" >
+	<widget source="global.CurrentTime" render="Label" position="815,55" size="300,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 22" valign="center" halign="right" transparent="1" foregroundColor="#00ffffff" >
 		<convert type="ClockToText">Format:%A %d.%B.%Y</convert>
 	</widget>
 	
 	<!-- select screen -->
-	<widget name="name" position="100,65" size="650,30" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 30" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
-	<widget name="tipps" position="40,125" size="1200,30" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal;20" valign="center" halign="left" zPosition="5" noWrap="1" />
+	<widget name="name" position="100,35" size="650,45" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 40" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
+	<widget name="tipps" position="40,100" size="1200,50" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal;22" valign="center" halign="left" zPosition="5" />
     <widget name="page" position="40,160" size="200,25" zPosition="1" transparent="1" font="mediaportal; 24" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />	
 	
 	<!-- Buttons -->
