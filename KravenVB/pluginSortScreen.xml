@@ -3,8 +3,8 @@
 	<screen name="pluginSort" position="0,0" size="1280,720" flags="wfNoBorder">
 
 	<!-- Background -->
-	<eLabel position="0,0" zPosition="-5" size="1280,720" backgroundColor="KravenBackground"/>
-		<eLabel position="75,85" size="1125,552" zPosition="-4" backgroundColor="KravenBackground"/>
+	<eLabel position="0,0" zPosition="-5" size="1280,720" backgroundColor="Kravenbg"/>
+		<eLabel position="75,85" size="1125,552" zPosition="-4" backgroundColor="Kravenbg"/>
 	<ePixmap position="0,0" size="1280,720" zPosition="-3" pixmap="~/KravenVB/images/mp_bg_detail.png" alphatest="blend" />
 	
 	<!-- Datum/Uhrzeit -->
