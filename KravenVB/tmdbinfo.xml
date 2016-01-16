@@ -1,46 +1,49 @@
-<screen position="0,0" size="1280,720" title="TMDb - The Movie Database" flags="wfNoBorder" backgroundColor="Kravenbg" >
-	<ePixmap position="0,0" size="1280,720" zPosition="-3" pixmap="~/KravenVB/images/mp_bg_detail.png" alphatest="blend" />
-			<widget name="searchinfo" position="30,40" size="930,30" font="mediaportal;28" foregroundColor="#00fff000" transparent="1"/>
-			<widget name="subtitle" position="30,80" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" foregroundColor="#00fff000"/>
-			<widget name="fulldescription" position="30,80" size="620,550" font="mediaportal;24" transparent="1"/>
-			<widget name="coverArt" position="1020,80" size="225,315" alphatest="blend"/>
-			<ePixmap position="725,90" size="100,75" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/images/star.png" transparent="1" alphatest="blend"/>
-			<widget name="rating" position="700,120" size="150,25" zPosition="2" transparent="1" font="mediaportal;22" foregroundColor="black" halign="center"/>
-			<widget name="fsk" position="800,220" size="150,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-		        <widget name="fsk_txt" position="670,220" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" backgroundColor="#26181d20" foregroundColor="#00ffffff" />
-			<widget name="year_txt" position="670,250" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="year" position="800,250" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="country_txt" position="670,280" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="country" position="800,280" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="runtime_txt" position="670,310" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="runtime" position="800,310" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="votes_txt" position="670,340" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="votes" position="800,340" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="director_txt" position="670,370" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="director" position="800,370" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="author_txt" position="670,400" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="author" position="800,400" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="genre_txt" position="670,430" size="100,30" font="mediaportal; 22" transparent="1"/>
-			<widget name="genre" position="800,430" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="studio_txt" position="670,460" size="100,30" font="mediaportal; 22" transparent="1"/>
-			<widget name="studio" position="800,460" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-<!-- Buttons -->
-    <widget name="F1" position="45,665" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <widget name="F2" position="190,665" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <widget name="F3" position="345,665" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <widget name="F4" position="500,665" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
-
-    <eLabel text=" CH+ " position="830,665" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <eLabel text=" CH- " position="955,665" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <eLabel text=" Exit " position="1080,665" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+  <screen position="0,0" size="1280,720" title="TMDb - The Movie Database" flags="wfNoBorder" backgroundColor="Kravenbg" >
 	
-	<ePixmap position="40,690" size="125,5" zPosition="4" pixmap="~/KravenVB/images/nav_red.png" alphatest="on" />
-	<ePixmap position="185,690" size="125,5" zPosition="4" pixmap="~/KravenVB/images/nav_green.png" alphatest="on" />
-	<ePixmap position="340,690" size="125,5" zPosition="4" pixmap="~/KravenVB/images/nav_yellow.png" alphatest="on" />
-	<ePixmap position="495,690" size="125,5" zPosition="4" pixmap="~/KravenVB/images/nav_blue.png" alphatest="on"/>
+	<!-- Background -->
+	<eLabel position="0,0" zPosition="-10" size="1280,720" backgroundColor="Kravenbg"/>
+	<ePixmap pixmap="/usr/share/enigma2/KravenVB/ibar.png" position="0,550" size="1280,400" alphatest="blend" zPosition="-9" />
+	<ePixmap pixmap="/usr/share/enigma2/KravenVB/ibaro.png" position="0,-60" size="1280,443" alphatest="blend" zPosition="-9" />
 
-	<ePixmap position="700,690" size="125,5" zPosition="4" pixmap="~/KravenVB/images/nav_grey.png" alphatest="on" />
-	<ePixmap position="825,690" size="125,5" zPosition="4" pixmap="~/KravenVB/images/nav_grey.png" alphatest="on" />
-	<ePixmap position="950,690" size="125,5" zPosition="4" pixmap="~/KravenVB/images/nav_grey.png" alphatest="on" />
-	<ePixmap position="1075,690" size="125,5" zPosition="4" pixmap="~/KravenVB/images/nav_grey.png" alphatest="on" />	
-	</screen>
+	<!-- Datum/Uhrzeit -->
+	<widget source="global.CurrentTime" render="Label" position="1110,12" size="100,45" backgroundColor="KravenIBbg2" zPosition="3" font="mediaportal; 34" valign="center" halign="right" transparent="1" foregroundColor="KravenFont2" >
+		<convert type="ClockToText">Format:%H:%M</convert>
+	</widget>
+	
+	<widget name="searchinfo" position="70,12" size="708,45" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 34" valign="center" halign="left" backgroundColor="KravenIBbg2" foregroundColor="KravenIBFont2" />
+	<widget name="subtitle" position="30,80" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" foregroundColor="KravenFont2" backgroundColor="Kravenbg" foregroundColor="KravenFont1" />
+	<widget name="fulldescription" position="30,80" size="620,550" transparent="1" font="mediaportal;24" backgroundColor="Kravenbg" foregroundColor="KravenFont1" />
+	<widget name="coverArt" position="1020,80" size="225,315" alphatest="blend"/>
+	<ePixmap position="725,90" size="100,75" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/images/star.png" transparent="1" alphatest="blend"/>
+	<widget name="rating" position="700,120" size="150,25" zPosition="2" transparent="1" font="mediaportal;22" backgroundColor="Kravenbg" foregroundColor="KravenFont1" halign="center"/>
+	<widget name="fsk" position="800,220" size="150,25" zPosition="2" transparent="1" font="mediaportal;22" backgroundColor="Kravenbg" foregroundColor="KravenFont1" />
+	<widget name="fsk_txt" position="670,220" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" backgroundColor="Kravenbg" foregroundColor="KravenFont1" />
+	<widget name="year_txt" position="670,250" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" backgroundColor="Kravenbg" foregroundColor="KravenFont1" />
+	<widget name="year" position="800,250" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" backgroundColor="Kravenbg" foregroundColor="KravenFont1" />
+	<widget name="country_txt" position="670,280" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" backgroundColor="Kravenbg" foregroundColor="KravenFont1" />
+	<widget name="country" position="800,280" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" backgroundColor="Kravenbg" foregroundColor="KravenFont1" />
+	<widget name="runtime_txt" position="670,310" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" backgroundColor="Kravenbg" foregroundColor="KravenFont1" />
+	<widget name="runtime" position="800,310" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" backgroundColor="Kravenbg" foregroundColor="KravenFont1" />
+	<widget name="votes_txt" position="670,340" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" backgroundColor="Kravenbg" foregroundColor="KravenFont1" />
+	<widget name="votes" position="800,340" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" backgroundColor="Kravenbg" foregroundColor="KravenFont1" />
+	<widget name="director_txt" position="670,370" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" backgroundColor="Kravenbg" foregroundColor="KravenFont1" />
+	<widget name="director" position="800,370" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" backgroundColor="Kravenbg" foregroundColor="KravenFont1" />
+	<widget name="author_txt" position="670,400" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" backgroundColor="Kravenbg" foregroundColor="KravenFont1" />
+	<widget name="author" position="800,400" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" backgroundColor="Kravenbg" foregroundColor="KravenFont1" />
+	<widget name="genre_txt" position="670,430" size="100,30" zPosition="2" transparent="1" font="mediaportal;22" backgroundColor="Kravenbg" foregroundColor="KravenFont1" />
+	<widget name="genre" position="800,430" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" backgroundColor="Kravenbg" foregroundColor="KravenFont1" />
+	<widget name="studio_txt" position="670,460" size="100,30" font="mediaportal; 22" transparent="1"/>
+	<widget name="studio" position="800,460" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+	
+	<!-- Buttons -->
+    <widget name="F1" position="70,665" size="200,26" transparent="1" font="mediaportal; 20" backgroundColor="KravenIBbg2" foregroundColor="KravenButton" valign="center" halign="left" zPosition="6" />
+    <widget name="F2" position="320,665" size="200,26" transparent="1" font="mediaportal; 20" backgroundColor="KravenIBbg2" foregroundColor="KravenButton" valign="center" halign="left" zPosition="6" />
+    <widget name="F3" position="570,665" size="200,26" transparent="1" font="mediaportal; 20" backgroundColor="KravenIBbg2" foregroundColor="KravenButton" valign="center" halign="left" zPosition="6" />
+    <widget name="F4" position="820,665" size="200,26" transparent="1" font="mediaportal; 20" backgroundColor="KravenIBbg2" foregroundColor="KravenButton" valign="center" halign="left" zPosition="6" />
+	<ePixmap position="65,690" size="200,5" zPosition="4" pixmap="/usr/share/enigma2/KravenVB/buttons/key_red1.png" alphatest="blend" />
+	<ePixmap position="315,690" size="200,5" zPosition="4" pixmap="/usr/share/enigma2/KravenVB/buttons/key_green1.png" alphatest="blend" />
+	<ePixmap position="565,690" size="200,5" zPosition="4" pixmap="/usr/share/enigma2/KravenVB/buttons/key_yellow1.png" alphatest="blend" />
+	<ePixmap position="815,690" size="200,5" zPosition="4" pixmap="/usr/share/enigma2/KravenVB/buttons/key_blue1.png" alphatest="blend"/>
+    <ePixmap pixmap="KravenVB/icons-light/key_ok.png" position="1145,670" size="43,22" alphatest="blend" />
+    <ePixmap pixmap="KravenVB/icons-light/key_exit.png" position="1195,670" size="43,22" alphatest="blend" />
+  </screen>
