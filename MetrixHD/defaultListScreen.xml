@@ -20,10 +20,10 @@
 	<widget source="global.CurrentTime" render="Label" position="105,145" size="130,60" noWrap="1" backgroundColor="#00000000" zPosition="3" font="mediaportal; 50" valign="center" halign="left" transparent="1" foregroundColor="#00f8f8f8" >
 		<convert type="ClockToText">Format:%H:%M</convert>
 	</widget>
-	<widget source="global.CurrentTime" render="Label" position="235,150" size="110,30" noWrap="1" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="left" transparent="1" foregroundColor="#00777777" >
+	<widget source="global.CurrentTime" render="Label" position="235,150" size="110,30" noWrap="1" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="left" transparent="1" foregroundColor="#00f8f8f8" >
 		<convert type="ClockToText">Format:%A</convert>
 	</widget>
-		<widget source="global.CurrentTime" render="Label" position="235,170" size="110,30" noWrap="1" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="left" transparent="1" foregroundColor="#00777777" >
+		<widget source="global.CurrentTime" render="Label" position="235,170" size="110,30" noWrap="1" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="left" transparent="1" foregroundColor="#00f8f8f8" >
 		<convert type="ClockToText">Format:%d.%B</convert>
 	</widget>
 	
@@ -47,7 +47,7 @@
     <widget name="F1" position="100,600" size="120,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <widget name="F2" position="230,600" size="120,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <widget name="F3" position="360,600" size="130,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <widget name="F4" position="505,600" size="120,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
+    <widget name="F4" position="490,600" size="120,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
 	
 	<eLabel text=" " position="655,600" size="100,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
 	<eLabel text=" Info " position="765,600" size="100,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
@@ -58,9 +58,9 @@
 	<eLabel position="90,595" zPosition="0" size="6,30" name="ButtonRED" backgroundColor="#008b0201"/>
 	<eLabel position="220,595" zPosition="0" size="6,30" name="ButtonGREEN" backgroundColor="#00007f0c"/>
 	<eLabel position="350,595" zPosition="0" size="6,30" name="ButtonYELLOW" backgroundColor="#007f7800"/>
-	<eLabel position="495,595" zPosition="0" size="6,30" name="ButtonBLUE" backgroundColor="#0000517f"/>
+	<eLabel position="480,595" zPosition="0" size="6,30" name="ButtonBLUE" backgroundColor="#0000517f"/>
 	
-	<eLabel position="650,595" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/>
+	<!--eLabel position="650,595" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/-->
 	<eLabel position="760,595" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/>
 	<eLabel position="870,595" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/>
 	<eLabel position="980,595" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/>

@@ -16,10 +16,10 @@
 	<widget source="global.CurrentTime" render="Label" position="105,145" size="130,60" noWrap="1" backgroundColor="#00000000" zPosition="3" font="mediaportal; 50" valign="center" halign="left" transparent="1" foregroundColor="#00f8f8f8" >
 		<convert type="ClockToText">Format:%H:%M</convert>
 	</widget>
-	<widget source="global.CurrentTime" render="Label" position="235,150" size="110,30" noWrap="1" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="left" transparent="1" foregroundColor="#00777777" >
+	<widget source="global.CurrentTime" render="Label" position="235,150" size="110,30" noWrap="1" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="left" transparent="1" foregroundColor="#00f8f8f8" >
 		<convert type="ClockToText">Format:%A</convert>
 	</widget>
-		<widget source="global.CurrentTime" render="Label" position="235,170" size="110,30" noWrap="1" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="left" transparent="1" foregroundColor="#00777777" >
+		<widget source="global.CurrentTime" render="Label" position="235,170" size="110,30" noWrap="1" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="left" transparent="1" foregroundColor="#00f8f8f8" >
 		<convert type="ClockToText">Format:%d.%B</convert>
 	</widget>
 	
@@ -53,7 +53,7 @@
       <convert type="MPServicePosition">Length</convert>
     </widget>
 	
-	<eLabel text="MEDIAPLAYER" position="85,480" size="260,50" noWrap="1" transparent="1" font="mediaportal; 22" backgroundColor="#00000000" foregroundColor="#00777777" valign="center" halign="center" zPosition="6" />
+	<eLabel text="MEDIAPLAYER" position="85,480" size="260,50" noWrap="1" transparent="1" font="mediaportal; 22" backgroundColor="#00000000" foregroundColor="#00f8f8f8" valign="center" halign="center" zPosition="6" />
 	
 	<widget name="coverArt" position="120,260" size="160,160" zPosition="4" backgroundColor="#00000000" transparent="1" alphatest="blend" />
 	
@@ -72,9 +72,9 @@
 	<eLabel position="90,595" zPosition="0" size="6,30" name="ButtonRED" backgroundColor="#008b0201"/>
 	<eLabel position="220,595" zPosition="0" size="6,30" name="ButtonGREEN" backgroundColor="#00007f0c"/>
 	<eLabel position="350,595" zPosition="0" size="6,30" name="ButtonYELLOW" backgroundColor="#007f7800"/>
-	<eLabel position="490,595" zPosition="0" size="6,30" name="ButtonBLUE" backgroundColor="#0000517f"/>
+	<eLabel position="480,595" zPosition="0" size="6,30" name="ButtonBLUE" backgroundColor="#0000517f"/>
 	
-	<eLabel position="650,595" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/>
+	<!--eLabel position="650,595" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/-->
 	<eLabel position="760,595" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/>
 	<eLabel position="870,595" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/>
 	<eLabel position="980,595" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/>
