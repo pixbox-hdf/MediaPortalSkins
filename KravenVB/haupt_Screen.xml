@@ -15,8 +15,8 @@
 	<widget name="name" position="70,12" size="708,45" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 34" valign="center" halign="left" backgroundColor="KravenIBbg2" foregroundColor="KravenIBFont2" />
 	<widget name="Mediatheken" position="70,80" size="290,30" backgroundColor="Kravenbg" font="mediaportal; 26" valign="center" halign="center" transparent="1" foregroundColor="KravenFont1" />
 	<widget name="mediatheken" position="70,118" size="290,480" backgroundColor="Kravenbg" transparent="1" foregroundColorSelected="KravenSelFont" itemHeight="40" foregroundColor="KravenFont1" />
-	<widget name="Grauzone" position="360,80" size="290,30" backgroundColor="Kravenbg" font="mediaportal; 26" valign="center" halign="center" transparent="1" foregroundColor="KravenFont1" />
-	<widget name="grauzone" position="360,118" size="290,480" backgroundColor="Kravenbg" transparent="1" foregroundColorSelected="KravenSelFont" itemHeight="40" foregroundColor="KravenFont1" />
+	<widget name="User-additions" position="360,80" size="290,30" backgroundColor="Kravenbg" font="mediaportal; 26" valign="center" halign="center" transparent="1" foregroundColor="KravenFont1" />
+	<widget name="useradditions" position="360,118" size="290,480" backgroundColor="Kravenbg" transparent="1" foregroundColorSelected="KravenSelFont" itemHeight="40" foregroundColor="KravenFont1" />
 	<widget name="Funsport" position="650,80" size="290,30" backgroundColor="Kravenbg" font="mediaportal; 26" valign="center" halign="center" transparent="1" foregroundColor="KravenFont1" />
 	<widget name="funsport" position="650,118" size="290,480" backgroundColor="Kravenbg" transparent="1" foregroundColorSelected="KravenSelFont" itemHeight="40" foregroundColor="KravenFont1" />
 	<widget name="Porn" position="940,80" size="290,30" backgroundColor="Kravenbg" font="mediaportal; 26" valign="center" halign="center" transparent="1" foregroundColor="KravenFont1" />

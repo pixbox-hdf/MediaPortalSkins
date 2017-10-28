@@ -21,8 +21,8 @@
     
 	<widget name="Mediatheken" position="40,70" size="300,30" backgroundColor="#00000000" font="mediaportal; 26" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
 	<widget name="mediatheken" position="40,110" size="300,480" backgroundColor="#00000000" transparent="1" foregroundColorSelected="XionSelFont" foregroundColor="#00ffffff" />
-	<widget name="Grauzone" position="340,70" size="300,30" backgroundColor="#00000000" font="mediaportal; 26" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
-	<widget name="grauzone" position="340,110" size="300,480" backgroundColor="#00000000" transparent="1" foregroundColorSelected="XionSelFont" foregroundColor="#00ffffff" />
+	<widget name="User-additions" position="340,70" size="300,30" backgroundColor="#00000000" font="mediaportal; 26" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
+	<widget name="useradditions" position="340,110" size="300,480" backgroundColor="#00000000" transparent="1" foregroundColorSelected="XionSelFont" foregroundColor="#00ffffff" />
 	<widget name="Funsport" position="640,70" size="300,30" backgroundColor="#00000000" font="mediaportal; 26" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
 	<widget name="funsport" position="640,110" size="300,480" backgroundColor="#00000000" transparent="1" foregroundColorSelected="XionSelFont" foregroundColor="#00ffffff" />
 	<widget name="Porn" position="940,70" size="300,30" backgroundColor="#00000000" font="mediaportal; 26" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
