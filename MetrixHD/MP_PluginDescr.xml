@@ -1,6 +1,6 @@
-	<!-- defaultListScreen --> 
+	<!-- defaultListWideScreen --> 
 	
-	<screen name="defaultList" position="0,0" size="1280,720" flags="wfNoBorder">
+	<screen name="defaultListWide" position="0,0" size="1280,720" flags="wfNoBorder">
 	
 	<!-- Background -->
 	<eLabel position="0,0" zPosition="-5" size="1280,720" name="Background" backgroundColor="#ffffffff"/>
@@ -29,7 +29,7 @@
 	
 	<!-- select screen -->
     <eLabel text="MEDIAPORTAL" position="85,90" size="260,50" noWrap="1" transparent="1" font="mediaportal; 32" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
-	
+
 	<widget name="Page" position="995,410" size="180,40" zPosition="5" backgroundColor="#00000000" transparent="1" font="mediaportal;18" foregroundColor="#00f8f8f8" valign="center" halign="left" />
 	<widget name="page" position="995,410" size="180,40" zPosition="5" backgroundColor="#00000000" transparent="1" font="mediaportal;18" foregroundColor="#00f8f8f8" valign="center" halign="right" />
   	
@@ -41,12 +41,12 @@
 	
     <widget name="handlung" position="375,467" size="810,105" zPosition="1" backgroundColor="#00000000" transparent="1" font="mediaportal; 15" halign="left" foregroundColor="#00f8f8f8" />
 
-	<widget name="coverArt" position="85,220" size="260,340" zPosition="4" backgroundColor="#00000000" transparent="1" borderWidth="0" borderColor="#0000000" alphatest="blend" />
+	<widget name="coverArt" position="85,230" size="260,340" zPosition="4" backgroundColor="#00000000" transparent="1" borderWidth="0" borderColor="#0000000" alphatest="blend" />
 	
 	<!-- Buttons -->
     <widget name="F1" position="100,600" size="120,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <widget name="F2" position="230,600" size="120,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <widget name="F3" position="360,600" size="130,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="F3" position="360,600" size="120,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <widget name="F4" position="490,600" size="120,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
 	
 	<eLabel text=" " position="655,600" size="100,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
