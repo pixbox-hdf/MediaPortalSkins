@@ -33,18 +33,11 @@
 	<eLabel text=" &#xD;&#xA; Grauzone u. Porno: &#xD;&#xA; Bei aktiviertem Plugin müssen/sollten auch die einzelnen Hoster weiter unten auf 'JA' gestellt werden um sichtbar zu sein! " position="375,460" size="810,100" zPosition="1" backgroundColor="#00000000" transparent="1" font="mediaportal; 15" halign="left" foregroundColor="#00f8f8f8" />
 	
 	<!-- Buttons -->
-    <eLabel text=" " position="100,600" size="120,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <eLabel text=" " position="225,600" size="120,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <eLabel text=" " position="355,600" size="120,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <eLabel text=" " position="485,600" size="120,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
-    
     <widget name="F1" position="100,600" size="120,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <widget name="F2" position="225,600" size="120,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <widget name="F3" position="355,600" size="120,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <widget name="F4" position="485,600" size="120,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
 	
-	<eLabel text=" " position="655,600" size="100,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-	<eLabel text=" " position="765,600" size="100,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <eLabel text=" CH+ " position="875,600" size="100,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <eLabel text=" CH- " position="985,600" size="100,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <eLabel text=" Exit " position="1095,600" size="100,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
@@ -54,7 +47,6 @@
 	<eLabel position="350,595" zPosition="0" size="6,30" name="ButtonYELLOW" backgroundColor="#007f7800"/>
 	<eLabel position="480,595" zPosition="0" size="6,30" name="ButtonBLUE" backgroundColor="#0000517f"/>
 	
-	<!--eLabel position="650,595" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/-->
 	<eLabel position="760,595" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/>
 	<eLabel position="870,595" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/>
 	<eLabel position="980,595" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/>

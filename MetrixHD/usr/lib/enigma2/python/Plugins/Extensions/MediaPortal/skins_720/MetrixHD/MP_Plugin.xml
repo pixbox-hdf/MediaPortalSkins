@@ -41,8 +41,6 @@
     <widget name="F3" position="360,600" size="120,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <widget name="F4" position="490,600" size="175,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
 	
-	<eLabel text=" " position="655,600" size="100,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-	<eLabel text=" " position="765,600" size="100,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <eLabel text=" CH+ " position="875,600" size="100,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <eLabel text=" CH- " position="985,600" size="100,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <eLabel text=" Exit " position="1095,600" size="100,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
@@ -52,8 +50,6 @@
 	<eLabel position="350,595" zPosition="0" size="6,30" name="ButtonYELLOW" backgroundColor="#007f7800"/>
 	<eLabel position="480,595" zPosition="0" size="6,30" name="ButtonBLUE" backgroundColor="#0000517f"/>
 	
-	<!--eLabel position="650,595" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/-->
-	<eLabel position="760,595" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/>
 	<eLabel position="870,595" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/>
 	<eLabel position="980,595" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/>
 	<eLabel position="1090,595" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/>

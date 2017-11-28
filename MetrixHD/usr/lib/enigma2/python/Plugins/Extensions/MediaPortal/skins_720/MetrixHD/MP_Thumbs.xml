@@ -31,7 +31,6 @@
     <widget name="F3" position="360,655" size="120,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <widget name="F4" position="490,655" size="120,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
 	
-	<eLabel text=" " position="655,655" size="100,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
 	<eLabel text=" Info " position="765,655" size="100,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <eLabel text=" CH+ " position="875,655" size="100,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <eLabel text=" CH- " position="985,655" size="100,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
@@ -42,7 +41,6 @@
 	<eLabel position="350,650" zPosition="0" size="6,30" name="ButtonYELLOW" backgroundColor="#007f7800"/>
 	<eLabel position="480,650" zPosition="0" size="6,30" name="ButtonBLUE" backgroundColor="#0000517f"/>
 	
-	<!--eLabel position="650,650" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/-->
 	<eLabel position="760,650" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/>
 	<eLabel position="870,650" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/>
 	<eLabel position="980,650" zPosition="0" size="6,30" name="ButtonGREY" backgroundColor="#009c9c9c"/>

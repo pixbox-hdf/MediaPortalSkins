@@ -37,28 +37,28 @@
 	
 	<widget name="ParameterToEdit" position="100,260" size="120,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal;20" valign="center" halign="left" foregroundColor="#00ffff00" />
 	
-	<widget name="Query" position="100,280" size="120,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#009c9c9c" />
-    <widget name="query" position="235,280" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 18" valign="center" halign="left" foregroundColor="#00ffff00" />
-    <widget name="Keywords" position="100,300" size="120,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#009c9c9c" />
-    <widget name="keywords" position="235,300" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 18" valign="center" halign="left" foregroundColor="#00ffffff" />
-	<widget name="Time" position="100,320" size="120,20" backgroundColor="#0000000" transparent="1" zPosition="1" font="mediaportal;20" valign="center" halign="left" foregroundColor="#009c9c9c" />
-    <widget name="time" position="235,320" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal;18" valign="center" halign="left" foregroundColor="#00fffffff" />
+	<widget name="Query" position="100,280" size="120,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 17" valign="center" halign="left" foregroundColor="#009c9c9c" />
+    <widget name="query" position="235,280" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 17" valign="center" halign="left" foregroundColor="#00ffff00" />
+    <widget name="Keywords" position="100,300" size="120,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 17" valign="center" halign="left" foregroundColor="#009c9c9c" />
+    <widget name="keywords" position="235,300" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 17" valign="center" halign="left" foregroundColor="#00ffffff" />
+	<widget name="Time" position="100,320" size="120,20" backgroundColor="#0000000" transparent="1" zPosition="1" font="mediaportal; 17" valign="center" halign="left" foregroundColor="#009c9c9c" />
+    <widget name="time" position="235,320" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 17" valign="center" halign="left" foregroundColor="#00fffffff" />
 	
-	<widget name="Metalang" position="100,340" size="120,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#009c9c9c" />
-    <widget name="metalang" position="235,340" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 18" valign="center" halign="left" foregroundColor="#00ffff00" />
-    <widget name="Regionid" position="100,360" size="120,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#009c9c9c" />
-    <widget name="regionid" position="235,360" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 18" valign="center" halign="left" foregroundColor="#00ffffff" />
-	<widget name="Author" position="100,380" size="120,20" backgroundColor="#0000000" transparent="1" zPosition="1" font="mediaportal;20" valign="center" halign="left" foregroundColor="#009c9c9c" />
-    <widget name="author" position="235,380" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal;18" valign="center" halign="left" foregroundColor="#00fffffff" />
+	<widget name="Metalang" position="100,340" size="120,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 17" valign="center" halign="left" foregroundColor="#009c9c9c" />
+    <widget name="metalang" position="235,340" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 17" valign="center" halign="left" foregroundColor="#00ffff00" />
+    <widget name="Regionid" position="100,360" size="120,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 17" valign="center" halign="left" foregroundColor="#009c9c9c" />
+    <widget name="regionid" position="235,360" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 17" valign="center" halign="left" foregroundColor="#00ffffff" />
+	<widget name="Author" position="100,380" size="120,20" backgroundColor="#0000000" transparent="1" zPosition="1" font="mediaportal; 17" valign="center" halign="left" foregroundColor="#009c9c9c" />
+    <widget name="author" position="235,380" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 17" valign="center" halign="left" foregroundColor="#00fffffff" />
 	
-	<widget name="3D" position="100,400" size="120,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#009c9c9c" />
-    <widget name="3d" position="235,400" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 18" valign="center" halign="left" foregroundColor="#00ffff00" />
-    <widget name="Duration" position="100,420" size="120,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#009c9c9c" />
-    <widget name="duration" position="235,420" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 18" valign="center" halign="left" foregroundColor="#00ffffff" />
-	<widget name="Reserve1" position="100,440" size="120,20" backgroundColor="#0000000" transparent="1" zPosition="1" font="mediaportal;20" valign="center" halign="left" foregroundColor="#009c9c9c" />
-    <widget name="reserve1" position="235,440" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal;18" valign="center" halign="left" foregroundColor="#00fffffff" />
-	<widget name="Reserve2" position="100,460" size="120,20" backgroundColor="#0000000" transparent="1" zPosition="1" font="mediaportal;20" valign="center" halign="left" foregroundColor="#009c9c9c" />
-    <widget name="reserve2" position="235,460" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal;18" valign="center" halign="left" foregroundColor="#00fffffff" />
+	<widget name="3D" position="100,400" size="120,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 17" valign="center" halign="left" foregroundColor="#009c9c9c" />
+    <widget name="3d" position="235,400" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 17" valign="center" halign="left" foregroundColor="#00ffff00" />
+    <widget name="Duration" position="100,420" size="120,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 17" valign="center" halign="left" foregroundColor="#009c9c9c" />
+    <widget name="duration" position="235,420" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 17" valign="center" halign="left" foregroundColor="#00ffffff" />
+	<widget name="Reserve1" position="100,440" size="120,20" backgroundColor="#0000000" transparent="1" zPosition="1" font="mediaportal; 17" valign="center" halign="left" foregroundColor="#009c9c9c" />
+    <widget name="reserve1" position="235,440" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 17" valign="center" halign="left" foregroundColor="#00fffffff" />
+	<widget name="Reserve2" position="100,460" size="120,20" backgroundColor="#0000000" transparent="1" zPosition="1" font="mediaportal; 17" valign="center" halign="left" foregroundColor="#009c9c9c" />
+    <widget name="reserve2" position="235,460" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 17" valign="center" halign="left" foregroundColor="#00fffffff" />
 	
 	<!-- Buttons -->
     <widget name="F1" position="100,600" size="120,25" noWrap="1" transparent="1" font="mediaportal; 20" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />

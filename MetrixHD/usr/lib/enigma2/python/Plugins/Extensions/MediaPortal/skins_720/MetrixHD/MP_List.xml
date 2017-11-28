@@ -24,7 +24,7 @@
     <eLabel text="MEDIAPORTAL" position="85,90" size="260,50" noWrap="1" transparent="1" font="mediaportal; 32" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
     <eLabel text="Version" position="90,485" size="250,50" noWrap="1" transparent="1" font="mediaportal; 28" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
 	<widget name="version" position="90,525" size="250,50" noWrap="1" transparent="1" font="mediaportal; 28" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
-	<ePixmap pixmap="~/MetrixHD/images/picon_default.png" position="110,310" zPosition="-4" size="220,132" alphatest="on" />
+	<ePixmap pixmap="~/MetrixHD/images/logo.png" position="110,310" zPosition="-4" size="220,132" alphatest="on" />
 
 	<widget name="name" position="90,230" size="250,30" backgroundColor="#00000000" font="mediaportal; 24" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
 	<widget name="liste" position="375,148" size="810,430" backgroundColor="#00000000" transparent="1" foregroundColorSelected="menufontselected" foregroundColor="#009c9c9c" itemHeight="61" />
