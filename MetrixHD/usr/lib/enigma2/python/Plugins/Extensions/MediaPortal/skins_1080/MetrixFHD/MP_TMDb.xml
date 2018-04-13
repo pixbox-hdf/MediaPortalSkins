@@ -3,8 +3,8 @@
 			<widget name="subtitle" position="15,75" size="600,38" zPosition="2" transparent="1" font="mediaportal; 33" foregroundColor="#00fff000"/>
 			<widget name="fulldescription" position="15,120" size="930,705" font="mediaportal; 33" transparent="1"/>
 			<widget name="coverArt" position="1425,15" size="338,473" alphatest="blend"/>
-			<ePixmap position="1058,90" size="150,113" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/images/star.png" transparent="1" alphatest="blend"/>
-			<widget name="rating" position="1020,135" size="225,38" zPosition="2" transparent="1" font="mediaportal; 33" foregroundColor="black" halign="center"/>
+			<ePixmap position="1085,105" size="150,113" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/images/star.png" transparent="1" alphatest="blend"/>
+			<widget name="rating" position="1022,133" size="225,38" zPosition="2" transparent="1" font="mediaportal; 28" foregroundColor="black" halign="center"/>
 			<widget name="fsk" position="1170,285" size="225,38" zPosition="2" transparent="1" font="mediaportal; 33"/>
 		    <widget name="fsk_txt" position="975,285" size="600,38" zPosition="2" transparent="1" font="mediaportal; 33" backgroundColor="#26181d20" foregroundColor="#00ffffff" />
 			<widget name="year_txt" position="975,330" size="600,38" zPosition="2" transparent="1" font="mediaportal; 33"/>
