@@ -34,7 +34,7 @@
 	<widget name="page" position="995,410" size="180,40" zPosition="5" backgroundColor="#00000000" transparent="1" font="mediaportal;18" foregroundColor="#00f8f8f8" valign="center" halign="right" />
   	
 	<widget name="title" position="780,90" size="400,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 26" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#00f8f8f8" />
-	<widget name="name" position="380,90" size="400,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
+	<widget name="name" position="380,90" size="500,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 	<widget name="ContentTitle" position="380,410" size="600,40" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 18" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 
     <widget name="liste" position="366,141" size="828,250" backgroundColor="#30000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" foregroundColorSelected="menufontselected" foregroundColor="#009c9c9c" itemHeight="25" />
