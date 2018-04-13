@@ -27,7 +27,7 @@
 	<ePixmap pixmap="~/MetrixFHD/images/logo.png" position="165,465" zPosition="-4" size="330,198" alphatest="on" />
 
 	<widget name="name" position="135,345" size="375,45" backgroundColor="#00000000" font="mediaportal; 36" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
-	<widget name="liste" position="563,222" size="1215,645" backgroundColor="#00000000" transparent="1" foregroundColorSelected="menufontselected" foregroundColor="#009c9c9c" itemHeight="92" />
+	<widget name="liste" position="563,220" size="1215,640" backgroundColor="#00000000" transparent="1" foregroundColorSelected="menufontselected" foregroundColor="#009c9c9c" itemHeight="91" />
 	
 	<!-- Buttons -->
     <widget name="F1" position="150,900" size="180,38" noWrap="1" transparent="1" font="mediaportal; 30" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />

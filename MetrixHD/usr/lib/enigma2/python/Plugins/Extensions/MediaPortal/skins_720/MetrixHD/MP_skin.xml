@@ -5,8 +5,8 @@
 		<color color="#ffffff" name="LabelForeground" />
 		<color color="#20000000" name="ListboxBackground" />
 		<color color="#ffffff" name="ListboxForeground" />
-		<color color="#000000" name="ListboxSelectedBackground" />
-		<color color="#menufontselected" name="ListboxSelectedForeground" />
+		<color color="#layer-a-selection-background" name="ListboxSelectedBackground" />
+		<color color="#ffffff" name="ListboxSelectedForeground" />
 		<color color="#20000000" name="ListboxMarkedBackground" />
 		<color color="#ffffff" name="ListboxMarkedForeground" />
 		<color color="#000000" name="ListboxMarkedAndSelectedBackground" />
