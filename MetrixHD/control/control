@@ -1,9 +1,9 @@
 Package: enigma2-plugin-skin-mediaportal-atv-metrixhd
-Version: 1.2
+Version: 1.5
 Section: misc
 Priority: optional
 Architecture: all
 Depends:
 Maintainer: nettraxx
-Description: MediaPortal MetrixHD Skin ATV Style
+Description: MediaPortal Metrix HD und FHD Skin im ATV Style
 Source: 
