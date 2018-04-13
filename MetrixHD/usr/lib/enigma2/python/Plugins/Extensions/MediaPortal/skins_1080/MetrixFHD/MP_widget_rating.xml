@@ -1,0 +1,2 @@
+﻿<widget name="rating10" position="1125,635" size="188,18" pixmap="~/MetrixFHD/images/stars-full10.png" zPosition="4" transparent="1" />
+<widget name="rating0" position="1125,635" size="188,18" pixmap="~/MetrixFHD/images/stars-empty10.png" zPosition="3" transparent="1" alphatest="blend" />
