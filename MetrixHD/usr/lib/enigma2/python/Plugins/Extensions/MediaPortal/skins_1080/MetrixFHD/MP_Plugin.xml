@@ -31,7 +31,7 @@
 	<widget name="title" position="1170,135" size="600,60" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 39" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#00f8f8f8" />
 	<widget name="name" position="570,135" size="600,60" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 30" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 	<widget name="ContentTitle" position="570,615" size="1200,60" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 27" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
-
+	<widget name="coverArt" pixmap="~/MetrixFHD/images/no_coverArt.png" position="128,345" size="390,510" zPosition="4" backgroundColor="#00000000" transparent="1" borderWidth="0" borderColor="#0000000" alphatest="blend" />
     <widget name="liste" position="549,212" size="1242,375" backgroundColor="#30000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" foregroundColorSelected="menufontselected" foregroundColor="#009c9c9c" itemHeight="38" />
 	
 	<!-- Buttons -->
