@@ -23,7 +23,7 @@
 	
 	<!-- select screen -->
     <eLabel text="MEDIAPORTAL" position="85,90" size="260,50" noWrap="1" transparent="1" font="mediaportal; 32" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
-	<ePixmap pixmap="~/MetrixHD/images/logo.png" position="110,310" zPosition="-4" size="220,132" alphatest="on" />
+	<ePixmap pixmap="~/MetrixHD/images/logo.png" position="110,310" zPosition="-4" size="220,132" alphatest="blend" />
 
 	<widget name="title" position="780,90" size="400,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 24" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#00f8f8f8" />
     <widget name="config" position="368,145" size="825,420" backgroundColor="#30000000" zPosition="1" itemHeight="22" font="mediaportal; 18" scrollbarMode="showOnDemand" transparent="1" foregroundColorSelected="menufontselected" foregroundColor="#009c9c9c" />

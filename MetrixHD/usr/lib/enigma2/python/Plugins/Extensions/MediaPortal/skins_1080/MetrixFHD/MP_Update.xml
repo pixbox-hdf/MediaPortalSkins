@@ -1,4 +1,4 @@
 <screen name="MPUpdateScreen" position="center,center" size="1920,1080" title="" backgroundColor="transparent" flags="wfNoBorder">
-	<ePixmap position="323,165" size="1275,750" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/skins_720/MetrixFHD/images/MP_update.png" alphatest="on" />
+	<ePixmap position="323,165" size="1275,750" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/skins_720/MetrixFHD/images/MP_update.png" alphatest="blend" />
 	<widget name="mplog" position="431,375" size="1080,495" font="mediaportal; 33" valign="top" halign="left" backgroundColor="#00000000" transparent="1" zPosition="1" />
 </screen>

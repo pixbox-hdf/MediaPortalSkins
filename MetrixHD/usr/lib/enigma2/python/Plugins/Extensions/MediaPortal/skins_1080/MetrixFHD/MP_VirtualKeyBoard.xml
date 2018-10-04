@@ -1,11 +1,11 @@
 <screen name="VirtualKeyBoardExt" position="center,center" size="1350,825" zPosition="9999" title="">
-	<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/skins_720/MetrixFHD/images/vkey_text.png" position="15,90" zPosition="-4" size="1320,60" alphatest="on" />
-	<widget source="country" render="Pixmap" position="1245,15" size="90,60" alphatest="on" borderWidth="2" borderColor="yellow" >
+	<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/skins_720/MetrixFHD/images/vkey_text.png" position="15,90" zPosition="-4" size="1320,60" alphatest="blend" />
+	<widget source="country" render="Pixmap" position="1245,15" size="90,60" alphatest="blend" borderWidth="2" borderColor="yellow" >
 		<convert type="ValueToPixmap">LanguageCode</convert>
 	</widget>
 	<widget name="header" position="15,33" size="1223,42" font="mediaportal; 36" transparent="1" noWrap="1" />
 	<widget name="text" position="18,89" size="1314,60" font="mediaportal; 48" transparent="1" noWrap="1" halign="left" />
 	<widget name="list" position="18,173" size="1317,338" selectionDisabled="1" transparent="1" itemHeight="68" />
 	<widget name="suggestionlist" position="15,525" size="780,263"  selectionDisabled="1" transparent="1" scrollbarMode="showOnDemand" itemHeight="38" />
-	<widget name="captcha" position="810,525" size="450,300" transparent="1" alphatest="on" />
+	<widget name="captcha" position="810,525" size="450,300" transparent="1" alphatest="blend" />
 </screen>

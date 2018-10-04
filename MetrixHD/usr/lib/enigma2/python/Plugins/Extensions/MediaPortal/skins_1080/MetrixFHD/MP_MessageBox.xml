@@ -3,9 +3,9 @@
     <widget name="bgup" position="2,2" size="1260,60" backgroundColor="#20000000" />
     <widget name="bgdown" position="2,64" size="1260,400" backgroundColor="#20000000" />
     <widget name="text" position="110,85" size="1180,0" font="mediaportal;30" zPosition="1" backgroundColor="#20000000" transparent="1" />
-    <widget name="ErrorPixmap" pixmap="skin_default/icons/input_error.png" position="30,80" size="53,53" alphatest="on" zPosition="1" transparent="1" />
-    <widget name="QuestionPixmap" pixmap="skin_default/icons/input_question.png" position="30,80" size="53,53" alphatest="on" zPosition="1" transparent="1" />
-    <widget name="InfoPixmap" pixmap="skin_default/icons/input_info.png" position="30,80" size="53,53" alphatest="on" zPosition="1" transparent="1" />
+    <widget name="ErrorPixmap" pixmap="skin_default/icons/input_error.png" position="30,80" size="53,53" alphatest="blend" zPosition="1" transparent="1" />
+    <widget name="QuestionPixmap" pixmap="skin_default/icons/input_question.png" position="30,80" size="53,53" alphatest="blend" zPosition="1" transparent="1" />
+    <widget name="InfoPixmap" pixmap="skin_default/icons/input_info.png" position="30,80" size="53,53" alphatest="blend" zPosition="1" transparent="1" />
     <widget name="list" position="2,65" size="1260,400" backgroundColor="#20000000" itemHeight="42" transparent="1" zPosition="1" />
 	<applet type="onLayoutFinish">
 # this should be factored out into some helper code, but currently demonstrates applets.
