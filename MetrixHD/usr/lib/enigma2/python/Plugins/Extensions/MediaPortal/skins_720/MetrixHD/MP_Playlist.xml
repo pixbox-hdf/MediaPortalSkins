@@ -46,7 +46,7 @@
       <convert type="MPServicePosition">Position</convert>
     </widget>
     <widget source="session.CurrentService" render="Label" position="90,545" size="250,30"  zPosition="5" backgroundColor="#00000000" transparent="1" font="mediaportal; 16" valign="center" halign="center" foregroundColor="#00ffffff">
-      <convert type="MPServicePosition">Remaining</convert>
+      <convert type="MPServicePosition">Remaining,Negate</convert>
     </widget>
 	<widget source="session.CurrentService" render="Label" position="90,545" size="250,30"  zPosition="5" backgroundColor="#00000000" transparent="1" font="mediaportal; 16" valign="center" halign="right" foregroundColor="#00ffffff">
       <convert type="MPServicePosition">Length</convert>
